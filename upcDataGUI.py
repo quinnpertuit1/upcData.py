@@ -1,5 +1,5 @@
 ####################################
-# upcDataGUI v1.0                  #
+# upcDataGUI v1.0.1                #
 # Copyright (c) 2020 Quint Wingate #
 # Licensed under Apache 2.0        #
 ####################################
