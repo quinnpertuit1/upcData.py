@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+####################################
+# upcData v1.0                     #
+# Copyright (c) 2020 Quint Wingate #
+# Licensed under Apache 2.0        #
+####################################
+
 import json, requests, sys, pprint
 
 # Compute location from command line arguments.
