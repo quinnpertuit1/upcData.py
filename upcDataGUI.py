@@ -1,6 +1,7 @@
 ####################################
 # upcDataGUI v1.0                  #
 # Copyright (c) 2020 Quint Wingate #
+# Licensed under Apache 2.0        #
 ####################################
 
 import json, os, requests, sys, pyautogui, pprint
