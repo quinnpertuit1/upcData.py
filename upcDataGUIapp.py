@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
 ####################################
-# upcDataGUI v1.1                  #
+# upcDataGUI macOS App v1.1        #
 # Copyright (c) 2020 Quint Wingate #
 # Licensed under Apache 2.0        #
 ####################################
 
 import json, os, requests, sys, pyautogui
+
+user = os.getlogin()
 
 upc = pyautogui.prompt(text='Scan UPC:', title='UPCDataGUI')
 upcSave = pyautogui.prompt(text='Save Name:', title='UPCDataGUI')
@@ -16,7 +18,7 @@ response = requests.get(url)
 response.raise_for_status()
 
 upcData = json.loads(response.text)
-upcOutput = open('~/Downloads/'+upcSave+'.txt','w')
+upcOutput = open('/Users/'+user+'/Downloads/'+upcSave+'.txt','w')
 
 w = upcData['items']
 print(w)
