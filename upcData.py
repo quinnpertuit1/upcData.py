@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ####################################
-# upcData v1.0.1                   #
+# upcData v1.0                     #
 # Copyright (c) 2020 Quint Wingate #
 # Licensed under Apache 2.0        #
 ####################################
