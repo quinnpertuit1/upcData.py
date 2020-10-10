@@ -21,6 +21,7 @@ response.raise_for_status() # check for errors
 
 # Load JSON data into a Python variable.
 upcData = json.loads(response.text)
+df = pd.read_json(upcData)
 #pprint.pprint(upcData)                      # show pprint.pprint
 
 
