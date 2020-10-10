@@ -20,4 +20,6 @@ for i in a1:
    c = pd.DataFrame(b)
    d = d.append(c)
    
-d.to_csv("upc.csv")
+e = pd.concat(d)
+   
+e.to_csv("upc.csv")
